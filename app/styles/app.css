@@ -1,0 +1,12 @@
+body {
+  background-color: #eeffcc;
+}
+
+
+.table-container {
+  height: 500px;
+}
+
+.sortable-header-cell {
+  background: #eeffcc;
+}
