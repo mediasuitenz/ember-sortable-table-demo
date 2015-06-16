@@ -2,10 +2,12 @@
   {{ember-sortable-table
     hasFooter=false
     columns=tableColumns
-    content=sortedRows
     enableColumnReorder=false
-    sortAction="sort"
-    sortAscending=sortAscending
+
+    rows=tableContent
+    defaultSortAscending=true
+    initialSortKey="high"
   }}
+
 
 </div>
